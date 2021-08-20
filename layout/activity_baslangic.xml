@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:background="@drawable/arkaplan"
+    tools:context="com.example.lenovo.rock_paper_scissors.baslangic">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/app_name"
+        tools:text="isim" />
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="giris" />
+
+
+</LinearLayout>
